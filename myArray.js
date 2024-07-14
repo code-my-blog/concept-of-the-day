@@ -1580,7 +1580,7 @@ var quotes = [
     "Belief consists in accepting the affirmations of the soul; Unbeliefin denying them.",
     "Many people have gone further than they thought they could because someone else thought they could.",
     "We read the world wrong and say that it deceives us.",
-    "If only wed stop trying to be happy wed have a pretty good time.",
+    "If only we'd stop trying to be happy we'd have a pretty good time.",
     "You must do the things you think you cannot do.",
     "Be yourself; everyone else is already taken.",
     "The mark of your ignorance is the depth of your belief in injustice and tragedy. What the caterpillar calls the end of the worldthe Master calls the butterfly.",

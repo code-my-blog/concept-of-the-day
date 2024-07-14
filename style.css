@@ -74,7 +74,7 @@ footer p {
     font-size: 1rem;
     font-weight: 600;
     color: #fff;
-    background-color: #007BFF;
+    background-color: #3b5b5f;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -83,5 +83,50 @@ footer p {
 }
 
 .button:hover {
-    background-color: #0056b3;
+    background-color: #0a1e33;
+}
+
+/* Drop-down List */
+select {
+    background-color: rgb(33, 69, 85);
+    border: 1px solid #f79942;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 4px;
+    max-width: 300px;
+    transition: border-color 0.3s ease;
+}
+
+select:hover, select:focus {
+    border-color: #f5972b;
+}
+
+/* Text Boxes */
+input[type="text"], input[type="email"], input[type="password"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:hover, input[type="email"]:hover, input[type="password"]:hover, textarea:hover,
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, textarea:focus {
+    border-color: #007bff;
+}
+
+/* Text Content */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    color: #333;
+    margin: 20px 0 10px;
+}
+
+p {
+    line-height: 1.6;
+    margin: 10px 0;
 }

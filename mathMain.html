@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Mathematics: Home</title>
+  <script type="text/javascript" src="./mathScript.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <select id="operation">
+    <option value="+">Addition</option>
+    <option value="-">Subtraction</option>
+    <option value="*">Multiplication</option>
+    <option value="/">Division</option>
+  </select>
+  <button onclick="generateProblem()">Generate Problem</button>
+  <div id="problem"></div>
+  <input type="text" id="userAnswer">
+  <button onclick="checkAnswer()">Check Answer</button>
+  <div id="result"></div>
+  <button onclick="generateProblem()">Next Problem</button>
+  <script type="text/javascript" src="./mathScript.js"></script>
+</body>
+
+</html>

@@ -38,9 +38,15 @@ function checkAnswer() {
   const userAnswer = parseInt(document.getElementById('userAnswer').value);
   const resultElement = document.getElementById('result');
 
+  const nextProblem = document.getElementById('buttonNextProblem');
+
   if (userAnswer === problemData.answer) {
     resultElement.textContent = "Correct!";
+    nextProblem.style.display = 'block';
+    nextProblem.style.alignSelf = 'center'
+    
   } else {
     resultElement.textContent = "Incorrect. The correct answer is " + problemData.answer;
+    nextProblem.style.display = 'none';
   }
 }

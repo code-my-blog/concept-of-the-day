@@ -22,6 +22,10 @@ body {
 div {
     height: 75vh;
 }
+s
+.a {
+    align-self: center;
+}
 
 /* Header and footer styles */
 header,

@@ -12,19 +12,29 @@
 </head>
 
 <body>
-  <a class="button" href="./index.html">Retreat!</a>
-  <select  class="select"  id="operation">
-    <option value="+">Addition</option>
-    <option value="-">Subtraction</option>
-    <option value="*">Multiplication</option>
-    <option value="/">Division</option>
-  </select>
-  <button class="button"  onclick="generateProblem()">Generate Problem</button>
-  <div id="problem"></div>
-  <input type="input" id="userAnswer">
-  <button class="button"  onclick="checkAnswer()">Check Answer</button>
-  <div id="result"></div>
-  <button class="button"  onclick="generateProblem()">Next Problem</button>
+  <div class="container">
+    <a href="./index.html">
+      <button class="button">Retreat!</button>
+    </a>
+    <select class="select" id="operation">
+      <option value="+">Addition</option>
+      <option value="-">Subtraction</option>
+      <option value="*">Multiplication</option>
+      <option value="/">Division</option>
+    </select>
+    <a href="#">
+      <button class="button" onclick="generateProblem()">Generate Problem</button>
+    </a>
+    <div id="problem"></div>
+    <input type="input" id="userAnswer" style="width: 50vh;align-self: center;">
+    <a href="#">
+      <button class="button" onclick="checkAnswer()">Check Answer</button>
+    </a>
+    <div id="result"></div>
+    <a href="#">
+      <button class="button" onclick="generateProblem()">Next Problem</button>
+    </a>
+  </div>
   <script type="text/javascript" src="./mathScript.js"></script>
 </body>
 

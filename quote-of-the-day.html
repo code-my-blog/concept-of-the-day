@@ -12,11 +12,17 @@
 </head>
 
 <body onload="nextQuote()">
-    <a class="button" href="./index.html">Retreat!</a>
-    <div class="container">
-        <div class="quote" id="quoteDisplay"></div>
+      
+    <div class="container">  
+        <a href="./index.html">
+            <button class="button">Retreat!</button>
+        </a>        
+        <div class="container" id="quoteDisplay">               
+        </div>   
+        <a href="#">
+            <button class="button" onclick="nextQuote()">Inspire Me!</button>
+        </a>
     </div>
-    <button class="button" onclick="nextQuote()">Inspire Me!</button>
     <script type="text/javascript" src="./javascript.js"></script>
 </body>
 

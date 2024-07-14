@@ -83,7 +83,6 @@ footer p {
     border-radius: 4px;
     cursor: pointer;
     text-decoration: none;
-    width: 50vh;
     transition: background-color 0.3s ease;
 }
 
@@ -99,9 +98,7 @@ select {
     font-size: 1rem;
     color: #fff;
     border-radius: 4px;
-    max-width: 100vh;
-    width: 50vh;
-    align-self: center;
+    max-width: 300px;
     transition: border-color 0.3s ease;
 }
 
@@ -115,7 +112,7 @@ input[type="text"],
 input[type="email"],
 input[type="password"],
 textarea {
-    width: 50vh;
+    width: 100%;
     padding: 10px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -188,7 +185,6 @@ p {
 
     select {
         max-width: 100%;
-        width: 50vh;
     }
 
     div {
